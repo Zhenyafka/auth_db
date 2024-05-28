@@ -9,14 +9,14 @@ import DataTablePage from './components/DataTablePage';
 export default function App() {
     return (
         <div>
-            {/*<Router>*/}
-            {/*    <Routes>*/}
-            {/*        <Route path="/" element={<LoginPage/>} />*/}
-            {/*        <Route path="/table" element={<DataTablePage/>} />*/}
-            {/*    </Routes>*/}
-            {/*</Router>*/}
-            <LoginPage/>
-            <DataTablePage/>
+            <Router>
+                <Routes>
+                    <Route path="/" element={<LoginPage/>} />
+                    <Route path="/data_table" element={<DataTablePage/>} />
+                </Routes>
+            </Router>
+            {/*<LoginPage/>*/}
+            {/*<DataTablePage/>*/}
         </div>
     );
 }

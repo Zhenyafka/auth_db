@@ -27,6 +27,7 @@ function DataTable () {
                     <th>Surname</th>
                     <th>Nickname</th>
                     <th>Recommendation</th>
+                    <th>Approval</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -39,6 +40,7 @@ function DataTable () {
                             <td>{item.surname}</td>
                             <td>{item.nickname}</td>
                             <td>{item.recommendation}</td>
+                            <td></td>
                         </tr>
                     )
                 })}

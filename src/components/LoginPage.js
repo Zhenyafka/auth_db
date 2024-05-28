@@ -1,17 +1,24 @@
 import React, {useState} from 'react';
-// import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import '../styles/login-page.css';
 
 
 function LoginPage () {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    // const navigate = useNavigate();
+    const navigate = useNavigate();
 
     const goToTablePage = () => {
-        // navigate('/DataTablePage');
+        // if (response.status === 201) {
+        //     navigate('/data_table');
+        // } else if (response.status === 400) {
+        //     return (
+        //         <div>Error</div>
+        //
+        //     )
+        // }
+        navigate('/data_table');
     }
-
 
 
         return (
