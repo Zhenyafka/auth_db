@@ -1,7 +1,6 @@
 [
-  {"id":1,"email":"123@mail.com","name":"Dallas","surname":"Geibel","nickname":"Maleen","recommendation":"Shantee"},
-  {"id":2,"email":"344@mail.com","name":"John","surname":"Doe","nickname":"Jason","recommendation":"Samanta"},
-  {"id":3,"email":"ertert@mail.com","name":"Elly","surname":"Mikhan","nickname":"Millie","recommendation":"Sam"},
-  {"id":4,"email":"456@mail.com","name":"Fred","surname":"Gaben","nickname":"Seman","recommendation":"Kate"},
-  {"id":5,"email":"fgh@mail.com","name":"Kassandra","surname":"Johnes","nickname":"Kassie","recommendation":"William"}
+  {"canProvide":true,"needAccess":true,"Privacy":true,"Denial":true,"Email":"","Name":"иван","Sername":"иванов","Messendger":"ник",
+    "Social":"фейсбук","projectRepresentative":"представитель","Volonter":"волонтер","Recommend":"рекомендует","Agree":true,"userId":""}
+
+
 ]
