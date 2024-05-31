@@ -20,8 +20,6 @@ export default function App() {
                     <Route path="/data_table_2" element={<ThirdTab/>} />
                 </Routes>
             </Router>
-            {/*<LoginPage/>*/}
-            {/*<DataTablePage/>*/}
         </div>
     );
 }
