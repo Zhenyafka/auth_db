@@ -62,41 +62,64 @@ function LoginPage() {
 
 
         return (
-            <div className='main-container'>
-                <div className='title-container'>
-                    <div>
-                        Login
-                    </div>
+            // <div className='main-container'>
+            //     <div className='title-container'>
+            //         <div>
+            //             Login
+            //         </div>
+            //     </div>
+            //     <br/>
+            //
+            //     <form onSubmit={goToTablePage}>
+            //         <div className='input-container'>
+            //             <input
+            //                 value={email}
+            //                 placeholder="Enter your email"
+            //                 onChange={(e) => setEmail(e.target.value)}
+            //                 required
+            //                 className={'input-box'}
+            //             />
+            //         </div>
+            //
+            //         <br/>
+            //         <div className='input-container'>
+            //             <input
+            //                 value={password}
+            //                 placeholder="Enter your password"
+            //                 onChange={(e) => setPassword(e.target.value)}
+            //                 className={'input-box'}
+            //             />
+            //         </div>
+            //     </form>
+            //     <br/>
+            //     <div className='input-container'>
+            //         <input className={'input-button'} type="button" onClick={goToTablePage} value={'Log in'}/>
+            //     </div>
+            //
+            // </div>
+
+            <div className="form-block">
+                <form onSubmit={goToTablePage} className="login-form">
+                <h1 className="form-title">Войти в админ панель</h1>
+                <div className="form-group">
+                    <label htmlFor="username" >Email</label>
+                    <input
+                                    value={email}
+                                    placeholder="Enter your email"
+                                    onChange={(e) => setPassword(e.target.value)}
+                                />
                 </div>
-                <br/>
-
-                <form onSubmit={goToTablePage}>
-                    <div className='input-container'>
-                        <input
-                            value={email}
-                            placeholder="Enter your email"
-                            onChange={(e) => setEmail(e.target.value)}
-                            required
-                            className={'input-box'}
-                        />
-                    </div>
-
-                    <br/>
-                    <div className='input-container'>
-                        <input
-                            value={password}
-                            placeholder="Enter your password"
-                            onChange={(e) => setPassword(e.target.value)}
-                            className={'input-box'}
-                        />
-                    </div>
-                </form>
-                <br/>
-                <div className='input-container'>
-                    <input className={'input-button'} type="button" onClick={goToTablePage} value={'Log in'}/>
+                <div className="form-group">
+                    <label htmlFor="password">Пароль</label>
+                    <input
+                        value={password}
+                        placeholder="Enter your password"
+                        onChange={(e) => setPassword(e.target.value)}
+                    />
                 </div>
-
-            </div>
+                <button type="submit" className="login-button">Войти</button>
+            </form>
+</div>
 
         )
 

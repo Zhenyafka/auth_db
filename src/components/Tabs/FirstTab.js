@@ -19,27 +19,27 @@ function FirstTab() {
         };
         fetchData();
     },);
-                //
-                //
-                //             fetch("https://itv.ngo2.ru/wp-json/citv/v1/users?", {
-                //                 headers: {
-                //                     "token": "ddddd",
-                //                     "x-fair-man": "66584717$exam"
-                //                 },
-                //                 body: {
-                //                     "forms_field": `{"code": "no forms_field"}`,
-                //                     "user_id": "84555"
-                //                 }
-                //             })
-                //                 .then((response) => response.text())
-                //                 .then(data => setData(data))
-                //                 .catch((error) => console.error(error));
-                //         };
+
+
+    //                         fetch("https://itv.ngo2.ru/wp-json/citv/v1/users?", {
+    //                             headers: {
+    //                                 "token": "ddddd",
+    //                                 "x-fair-man": "66584717$exam"
+    //                             },
+    //                             body: {
+    //                                 "forms_field": `{"code": "no forms_field"}`,
+    //                                 "user_id": "84555"
+    //                             }
+    //                         })
+    //                             .then((response) => response.text())
+    //                             .then(data => setData(data))
+    //                             .catch((error) => console.error(error));
+    //                     };
     //             fetchData();
     //         },
-    //         }
+    //        
     // )
-    // ;
+    ;
     // console.log(data)
 
     const dataParse = () => {
